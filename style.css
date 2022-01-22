@@ -1,0 +1,39 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: url("https://source.unsplash.com/DUmFLtMeAbQ") center/cover
+    no-repeat;
+  /* position: relative; */
+}
+.img-area {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.562);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 14px 50px;
+  border-radius: 20px;
+  border: 0;
+}
+input:focus {
+  outline: 0;
+}
+button {
+  padding: 14px 20px;
+  border-radius: 5px;
+  border: 0;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
